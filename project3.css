@@ -1,0 +1,427 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+#header{
+	width: 10s0%;
+	height: 700px;
+	background-image: url("images/slider/bg1.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+
+}
+#header1{
+	position: relative;
+	background-color: teal;
+	top: 50px;
+	left: 0px;
+	height: 90px;
+	width: 297px;
+}
+#header2{
+	position: absolute;
+	top: -35px;
+	left: 15px;
+}
+#header3 ul{
+	position: absolute;
+	top: 145px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: teal;
+	opacity: 0.8;
+	left: 250px;
+	width: 81.4%;
+}
+#header3 ul li{
+	float: left;
+	height: 90px;
+	
+}
+#header3 ul li a{
+	text-align: center;
+	display: inline-block;
+	color: white;
+	line-height: 80px;
+	padding: 5px 20px;
+	font-size:22px;
+	
+}
+#header3 ul li a:hover, #header3 ul li a:focus{
+	background-color: white;
+	color: #0099cc;
+}
+#header_text{
+	position: absolute;
+	color: white;
+	top: 420px;
+	height: 180px;
+	width: 700px;
+	left: 0;
+	background-color: black;
+	opacity: 0.7;
+}
+#header_text p:first-child{
+	margin-left: 50px;
+	font-size: 35px;
+}
+#header_text p:last-child, #header_text p a{
+	margin-left: 25px;
+	font-size: 22px;
+	color:teal;
+	font-family: arial;
+}
+#header_text p{
+	margin-left: 50px;
+	font-size: 26px;
+	line-height: 15px;
+}
+#section{
+	width: 100%;
+	color: red;
+	height: 350px;
+	background-image: url("images/event-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+#section1{
+	float: left;
+	position: absolute;
+	top: 720px;
+}
+#section2{
+	position: absolute;
+	top: 800px;
+	left: 280px;
+	color: white;
+	width: 400px;
+	text-align:center;
+	font-size: 44px;
+}
+#section3{
+	position: absolute;
+	top: 820px;
+	left: 700px;
+	color: white;
+	width: 100px;
+	text-align:center;
+}
+#section3 div{
+	background-color: teal;
+	padding: 22px 10px;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 65px;
+}
+#section3 p{
+	font-family: arial;
+	font-size:20px;
+	margin-top: 0;
+}
+#section4{
+	position: absolute;
+	top: 820px;
+	left: 820px;
+	color: white;
+	width: 100px;
+	text-align:center;
+}
+#section4 div{
+	background-color: orange;
+	padding: 22px 10px;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 65px;
+}
+#section4 p{
+	font-family: arial;
+	font-size:20px;
+	margin-top: 0;
+}
+#section5{
+	position: absolute;
+	top: 820px;
+	left: 940px;
+	color: white;
+	width: 100px;
+	text-align:center;
+}
+#section5 div{
+	background-color: brown;
+	padding: 22px 10px;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 65px;
+}
+#section5 p{
+	font-family: arial;
+	font-size:20px;
+	margin-top: 0;
+}
+#section6{
+	position: absolute;
+	top: 820px;
+	left: 1060px;
+	color: white;
+	width: 100px;
+	text-align:center;
+}
+#section6 div{
+	background-color: orangered;
+	padding: 22px 10px;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 65px;
+}
+#section6 p{
+	font-family: arial;
+	font-size:20px;
+	margin-top: 0;
+}
+#section7{
+	position: absolute;
+	top: 820px;
+	left: 1100px;
+	color: white;
+	width: 600px;
+	text-align:center;
+	display:none;
+}
+#section7 span{
+	background-color: teal;
+	padding: 22px 10px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 10px;
+	
+	
+}
+
+#nav0{
+	background-image: url("images/performar-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	width:100%;
+	height: 600px;
+	margin-top:-17px;
+}
+#nav1 p{
+	color:white;
+	position: absolute;
+	left: 100px;
+	top: 1080px;
+	font-size: 36px;
+	float: left;
+}
+#nav2{
+	float: right;
+	position: relative;
+	top: -466px;
+}
+#nav1 ul{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+}
+#nav1 ul li{
+	float: left;
+	display: inline-block;
+	margin-top: 140px;
+	margin-left: 30px;
+	position: relative;
+	left: 30px;
+}
+#nav1 ul li span{
+	color: white;
+	font-size: 24px;
+}
+#nav1 ul li span #kel{
+	font-size: 18px;
+}
+#aside{
+	background-color: green;
+	background-image: url("images/about-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	width:100%;
+	height: 453px;
+	margin-top: 51px;
+}
+#aside1{
+	float: left;
+}
+#aside2{
+	float: right;
+	position: absolute;
+	top: 1650px;
+	left: 800px;
+	font-size: 17px;
+	color: white;
+	
+}
+#aside2 span{
+	color: white;
+	font-size: 32px;
+	
+}
+#aside2 p{
+	color: white;
+	text-align: justify;
+	width: 500px;
+	font-family: arial;
+}
+#aside2 p a{
+	color:white;
+	background-color: #006666;
+	padding: 13px;
+	line-height: 70px;
+}
+#aside2 p a:hover{
+	background-color: blue;
+	color: orange;
+}
+#place{
+	background-image: url("images/sponsor-bg.jpg");
+	background-repeat: repeat-x;
+	background-position: top left;
+	width:100%;
+	height: 450px;
+	position: relative;
+}
+#place span{
+	color: white;
+	font-size: 40px;
+	position:relative;
+	left: 100px;
+	top: 85px;
+}
+#place ul{
+	list-style-type: none;
+	padding:0;
+	overflow: hidden;
+	position: relative;
+	top: 85px;
+}
+#place ul li{
+	float:left;
+	padding-left: 100px;
+}
+#place ol{
+	list-style-type: none;
+	padding:0;
+	overflow: hidden;
+	position: relative;
+	top: 140px;
+}
+#place ol li{
+	float:left;
+	padding-left: 85px;
+}
+#place #place1{
+	position: relative;
+	top: -227px;
+	margin-left: 890px;
+}
+#ground{
+	background-image: url("images/contact-bg.jpg");
+	background-repeat: repeat-x;
+	background-position: top left;
+	width:100%;
+	height: 507px;
+	position: relative;
+	margin-top: -10px;
+	bottom: 0px;
+}
+#ground #ground1{
+	float: left;
+}
+#ground #ground2{
+	float: right;
+	margin-right: 100px;
+}
+#ground #ground2 div span{
+	color: black;
+	font-size: 22px;
+	margin-right:300px;
+	top: 60px;
+	position: relative;
+}
+#ground #ground2 div input{
+	width: 417px;
+	height: 30px;
+	padding-left: 20px;
+	font-size: 18px;
+}
+#ground #ground2 div textarea{
+	padding-left: 20px;
+	color: gray;
+	padding-top: 10px;
+}
+#ground #ground2 div input:last-child{
+	color: yellow;
+	background-color: darkblue;
+	width: 120px;
+	height: 50px;
+	border: 0;
+	margin-left: 300px;
+	padding: 10px 0px 20px 0px;
+	cursor: pointer;
+}
+#ground #ground2 div input:last-child:hover{
+	color: white;
+	background-color: blue;
+}
+#ground #ground3{
+	color: black;
+	width: 300px;
+	height: 500px;
+	position: relative;
+	left:480px;
+}
+#ground #ground3 span{
+	position: relative;
+	top: -420px;
+	font-size: 20px;
+	line-height: 30px;
+}
+#footer{
+	background-color: yellow;
+	background-image: url("images/footer-bg.jpg");
+	background-repeat: repeat-y;
+	background-position: top center;
+	width:100%;
+	height: 300px;
+	color: white;
+	font-family: arial;
+	font-size: 36px;
+}
+#footer span{
+	position: relative;
+	text-align: center;
+	left: -200px;
+	top: 100px;
+	
+}
+#footer span:last-child{
+	position: relative;
+	text-align: center;
+	left: 260px;
+	top: 150px;
+}
